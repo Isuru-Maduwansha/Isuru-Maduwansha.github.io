@@ -1,0 +1,82 @@
+/*--font, colors and veriable setup--*/
+:root{
+   --font-base : "Figtree";
+   --c-yellow : hsl(47, 88%, 63%);
+   --c-white : hsl(0, 0%, 100%);
+   --c-gray500 : hsl(0, 0%, 42%);
+   --c-gray950 : hsl(0, 0%, 7%);
+}
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0;
+   min-height: 100vh;
+   font-family: var(--font-base);
+   line-height: 1.6;
+   background-color: var(--c-yellow);
+}
+/*--Blog card--*/
+.blogCard{
+   max-width: 320px;
+   width: 100%;
+   background-color: var(--c-white);
+   border-radius: 15px;
+   padding: 20px;
+   box-shadow: 8px 8px 0 var(--c-gray950);
+   border-left: solid 2px var(--c-gray500);
+   border-top: solid 2px var(--c-gray500);
+}
+.blogCardImg{
+   width: 100%;
+   border-radius: 10px;
+   margin-bottom: 15px;
+}
+.tag{
+   font-size: 14px;
+   font-weight: 800;
+   background-color: var(--c-yellow);
+   border-radius: 5px;
+   padding: 5px 10px 5px 10px;
+}
+.blogCard h3{
+   margin-top: 10px;
+   font-size: 14px;
+   color: var(--c-gray950);
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+.blogCard h1{
+   font-size: 25px;
+   font-weight: 800;
+   columns: var(--c-gray950);
+   margin: 0;
+}
+.blogCard h1:hover{
+   color: var(--c-yellow);
+}
+.blogCard p{
+   font-size: 16px;
+   font-weight: 500;
+   color: var(--c-gray500);
+   margin-bottom: 5px;
+   margin-top: 10px;
+}
+/*--avatar--*/
+.avatar{
+   display: flex;
+   width: 100%;
+   align-items: center;
+}
+.avatarImg{
+   margin: 10px 10px 10px 0;
+   height: 30px;
+   width: 30px;
+}
+.avatarName{
+   font-size: 16px;
+   font-weight: 800;
+}
+.attribution { font-size: 12px; text-align: center; margin-top: 20px; }
+.attribution a { color: hsl(228, 45%, 44%); }
