@@ -1,6 +1,6 @@
 /*--font, colors and veriable setup--*/
 :root{
-   --font-base : "Figtree";
+   --font-base : "Figtree" , sans-serif;
    --c-yellow : hsl(47, 88%, 63%);
    --c-white : hsl(0, 0%, 100%);
    --c-gray500 : hsl(0, 0%, 42%);
